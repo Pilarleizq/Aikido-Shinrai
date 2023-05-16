@@ -7,17 +7,130 @@
     <link rel="icon" href="./images/Shinrai.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
     
   </head>
 
   <body class="body">
-    <include src="./partials/header.html"></include>
-    <include src="./partials/main.html"></include>
-    <include src="./partials/footer.html"></include>
-    <script src="./assets/js/main.js"></script>
+
+    <header class="header">
+            <h1 class="title">Aikido Shinrai</h1> 
+            <div class="nav">
+                <ul class="list">
+                    <li>Home</li> 
+                    <li>Clases</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+    </header>
+
+    <hero class="hero">
+        <img class="hero_image" src="./images/hero.jpg" alt="photo"/>
+        <div class="hero_div">
+            <img class="hero_div_image" src="./images/hero2.png" alt="name"/>
+            <p class="hero_div_text">"Vence a tu enemigo interior para evitar la<br>
+                violencia externa. La verdadera victoria es la<br>
+                victoria sobre uno mismo"</p>
+            <p>Prueba una clase sin compromiso</p>
+        </div>
+
+    </hero>
+
+    <main class="main">
+        <section class="section1">
+            <p class="section1_name">Arte<br>Marcial<br>No competitivo</p>
+            <ul class="section1_ul">
+                <li class="section1_ul_li">
+                    <img class="section1_ul_li_img" src="./images/Group 1.png" alt="group1">
+                    <article class="section1_article">
+                        <p class="section1_p1">[Ai] Unión Armonía</p>
+                        <p>Designa la unión y<br> armonización de la mente</p>
+                    </article>
+                </li>
+                <li class="section1_ul_li">
+                    <img class="section1_ul_li_img" src="./images/Group 2.png" alt="group2">
+                    <article class="section1_article">
+                        <p class="section1_p1">[Ki] Energía</p>
+                        <p>Representa las energías que<br> animan todo el universo</p>
+                    </article>
+                </li>
+                <li class="section1_ul_li">
+                    <img class="section1_ul_li_img" src="./images/Group 3.png" alt="group3">
+                    <article class="section1_article">
+                        <p class="section1_p1">[Do] Camino</p>
+                        <p>Significa la vía, el camino, la<br> búsqueda</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <div class="section2">
+                <article class="section2_article">
+                    <h2 class="section2_clases">Clases</h2>
+                    <p>El Aikido es un arte marcial apta para todos, mejora la coordinación y<br>
+                        favorece el equilibrio físico y mental, sin importar la condición física o edad.</p>
+                    <div class="section2_article_div1">
+                        <p class="salvador">Salvador Sombría Silveira</p>
+                        <p>5º Dan Shidoin</p>
+                    </div>
+                    <article class="section2_article2">
+                    <div class="section2_article2_imgs">
+                        <img class="Shinrai" src="./images/Shinrai.png" alt="logo"/>
+                        <img class="ayto" src="./images/marca-Ayuntamiento_VERT 1.png" alt="ayunt"/>
+                    </div>
+                    <div class="section2_article2_div2">
+                        <div>
+                            <p>Polideportivo de la Luz</p>
+                            <p>Lunes y Miércoles<br> 19:00-20:00h</p>
+                        </div>
+                        <div>
+                            <p>Contacto</p>
+                            <p>649 889 031 / Salvador<br>
+                                shinrai@gmail.com</p>
+                        </div>
+                    </div>
+                    </article>
+                </article>
+                <img class="section2_img" src="./images/Salvador.png" alt="Salvador"/>
+            </div>
+        </section>
+        <section class="section3">
+            <h2 class="section3_blog">Nuestro blog</h2>
+            <p> Próximos cursos de la Federación</p>
+            <p class="section3_p2">La Federación de Aikido
+                Española ofrece cursos de formación en técnicas<br>
+                avanzadas de aikido, dirigido por reconocidos maestros internacionales.<br>
+                No pierdas la oportunidad de mejorar tu práctica.</p>
+                <ul class="section3_ul">
+                    <li>
+                        <img class="section3_img" src="./images/blog1.png" alt="blog1"/>
+                    </li>
+                    <li>
+                        <img class="section3_img" src="./images/blog2.png" alt="blog2"/>
+                        <p></p>
+                    </li>
+                    <li>
+                        <img class="section3_img" src="./images/blog3.png" alt="blog3"/>
+                        <p></p>
+                    </li>
+                </ul>
+          
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2 class="footer_asoc">Asociaciones</h2>
+        <div class="footer_logos">
+                <img src="./images/logo1.png" alt="logo">
+                <img src="./images/logo2.png" alt="logo">
+                <img src="./images/logo3.png" alt="logo">
+                <img src="./images/logo4.png" alt="logo">
+                <img src="./images/logo5.png" alt="logo">
+        </div>
+    </footer>
+    
   </body>
 
 </html>
